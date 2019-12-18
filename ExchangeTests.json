@@ -373,6 +373,37 @@
 						}
 					}
 				}
+			},
+						{
+				"methodName": "newInstrument",
+				"group": "Operations API",
+				"payload": {
+					"sample": {
+						"q": "/om2.exchange.operations/newInstrument",
+						"sid": 42,
+						"d": {
+							"cid": "__TIMESTAMP__",
+							"symbol": "A123",
+							"activityStatus":"Active",
+							"tradingState":"Trade",
+							"minQuantity":1,
+							"maxQuantity":100,
+ 							"pricePrecision":0,
+ 							"quantityPrecision":0,
+							"calendar": {
+							    "calendarId":4422,
+							    "calendarVersion":1,
+							    "marketOpen":"08:00",
+							    "marketClose":"17:30",
+							    "tradingDays":[Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+							    "holidays":[],
+							    "timeZone":"+01:00"
+							}
+							"circuitBreakerRules":[]
+
+						}
+					}
+				}
 			}
 		]
 	},
